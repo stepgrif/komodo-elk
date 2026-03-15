@@ -126,10 +126,10 @@ networks:
   internal_network:
     name: internal_network
 
-#volumes:
-#  elasticsearch:
-#    driver: local
-#    driver_opts:
-#      type: none
-#      o: bind
-#      device: /iSCSI/elk
+volumes:
+  elasticsearch:
+    driver: local
+    driver_opts:
+      type: none
+      o: bind
+      device: /iSCSI/elk
